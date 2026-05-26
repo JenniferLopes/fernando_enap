@@ -1,0 +1,130 @@
+---
+title: "Trilhas do Café com R"
+subtitle: "Materiais abertos organizados por tema para o projeto Holofote - ENAP"
+author: "Jennifer Lopes"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-title: "Trilhas"
+    toc-location: left
+    theme: flatly
+    smooth-scroll: true
+    page-layout: full
+editor: visual
+---
+
+------------------------------------------------------------------------
+
+> **Todo o material do Café com R é open source, produzido em Quarto, com código reproduzível e disponível no [GitHub](https://github.com/JenniferLopes/meu_site).**
+
+## Trilha 1 - Fundamentos dos Dados
+
+Para quem quer entender o que são dados, como organizá-los e trabalhar com eles na prática.
+
+**Materiais do Café com R:**
+
+1.  [Seus primeiros passos com R](https://jenniferlopes.github.io/meu_site/apresentações/posts/guia_inicial.html) - estruturas, objetos e operações fundamentais
+2.  [Funções em R](https://jenniferlopes.github.io/meu_site/apresentações/posts/funções_jeni.html) - como criar e usar funções reutilizáveis
+3.  [Manipulação de dados com dplyr](https://jenniferlopes.github.io/meu_site/apresentações/posts/manipulacao.html) - verbos principais do Tidyverse
+4.  [Atualizações no pacote dplyr](https://jenniferlopes.github.io/meu_site/apresentações/posts/dplyr_atualizacoes.html) - novidades da versão mais recente, incluindo `across()`
+5.  [Como limpar seus dados no R em 9 passos](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula21_janitor.html) - limpeza de dados com janitor
+6.  [Tidy data e análise exploratória](https://jenniferlopes.github.io/meu_site/apresentações/posts/apresentacao_tidy_eda.html) - estrutura e exploração de dados
+7.  [R e Python para começar em dados](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula_r_python_iniciantes.html) - comparação e estratégia de aprendizado
+8.  [Iniciando no R - Links](https://jenniferlopes.github.io/meu_site/recursos_para_iniciar_no_r.html) - página em HTML em construção, com links e recomendações.
+
+**Referências externas gratuitas e oficiais:**
+
+- [R for Data Science](https://r4ds.hadley.nz) - Hadley Wickham
+- [Hands-On Programming with R](https://rstudio-education.github.io/hopr) - Garrett Grolemund
+- [Documentação oficial do dplyr](https://dplyr.tidyverse.org)
+- [Documentação oficial do tidyr](https://tidyr.tidyverse.org)
+
+## Trilha 2 - Estatística
+
+**Materiais do Café com R:**
+
+1.  [Estatística com R](https://jenniferlopes.github.io/meu_site/apresentações/posts/estatistica_basica.html) - descritiva e inferencial
+2.  [Estatística Descritiva](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula16_estatistica_descritiva.html) - medidas de posição, dispersão e distribuição
+3.  [População, Amostra e Inferência](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula26_inferencia.html) - conceitos fundamentais de inferência estatística
+4.  [Estatística Descritiva e Inferencial](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula27_descritiva_inferencial.html) - do resumo dos dados à conclusão
+5.  [Modelagem Estatística](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula28_modelagem_estatistica.html) - Tidymodels e Easystats na prática
+6.  [Apostila de Estatística com R](https://apostilaestatisticacomr.netlify.app/) - do zero ao diagnóstico de modelos, Quarto Book open source
+7.  [Newsletter Dose 3 - Desmistificando o valor-p](https://jenniferlopes.github.io/meu_site/cafecomr/posts/25_11_dose3.html)
+8.  [Newsletter Dose 10 - O que colocar no lugar do p-valor: tamanho do efeito e IC](https://jenniferlopes.github.io/meu_site/cafecomr/posts/dose10_2505.html)
+9.  [Resenha - Quando a ciência aprende a perguntar](https://jenniferlopes.github.io/meu_site/cafecomr/posts/18_11-resenhalivro.html)
+
+**Referências externas gratuitas e oficiais:**
+
+- [Fundamentos de Ciência de Dados com R](https://cdr-book.github.io)
+- [Documentação do easystats](https://easystats.github.io/easystats)
+- [Documentação do infer](https://infer.tidymodels.org)
+
+## Trilha 3 - Visualização e Comunicação de Dados
+
+**Materiais do Café com R:**
+
+1.  [Visualização de dados com ggplot2](https://jenniferlopes.github.io/meu_site/apresentações/posts/visualizacao.html) - Grammar of Graphics na prática
+2.  [3 tipos gráficos para visualizar distribuições no R](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula24_distribuicoes.html) - ggplot2, ggridges e distribuições
+3.  [Gráficos interativos no R usando o pacote plotly](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula25_plotly.html) - interatividade com plotly e ggplot2
+4.  [Como fazer tabelas profissionais no R](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula22_gtsummary.html) - gtsummary para tabelas descritivas e de regressão
+
+**Referências externas gratuitas e oficiais:**
+
+- [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org)
+- [R Graphics Cookbook](https://r-graphics.org)
+- [Galeria de gráficos em R](https://r-graph-gallery.com)
+- [Documentação oficial do ggplot2](https://ggplot2.tidyverse.org)
+
+## Trilha 4 - Publicação e Reprodutibilidade com Quarto
+
+Para quem quer documentar, publicar e compartilhar análises de forma profissional.
+
+**Materiais do Café com R:**
+
+1.  [Do zero ao site no ar com Quarto](https://projetoportifolio-nor.netlify.app/) - apostila completa: blog, portfólio e site com Quarto e GitHub Pages
+2.  [Git e GitHub no RStudio](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula15_git_github_rstudio.html) - controle de versão integrado
+3.  [GitHub Actions para projetos de dados](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula18_github_actions_para_dados_em_R.html) - automação de pipelines e publicação contínua
+4.  [Envio de e-mails com blastula](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula20_blastula.html) - automação de relatórios por e-mail
+5.  [Como automatizei minha newsletter do zero](https://jenniferlopes.github.io/meu_site/cafecomr/posts/09_03_tutorial_newsletter_automacao.html) - n8n + Google Sheets + Gmail, tudo gratuito
+
+**Referências externas gratuitas e oficiais:**
+
+- [Documentação oficial do Quarto](https://quarto.org/docs/guide)
+- [Happy Git with R](https://happygitwithr.com)
+
+## Trilha 5 - Infraestrutura e Boas Práticas
+
+Projetos com qualidade, colaboração e escalabilidade.
+
+**Materiais do Café com R:**
+
+1.  [14 integrações do R e RStudio](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula14_integracoes_r.html) - ferramentas e conexões do ecossistema
+2.  [Docker para pesquisadores e analistas](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula17_docker_para_dados_em_R.html) - reprodutibilidade com containers
+3.  [9 passos para controlar seus pacotes com renv](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula23_renv.html) - gerenciamento de dependências por projeto
+4.  [Boas práticas em projetos de R](https://jenniferlopes.github.io/meu_site/cafecomr/posts/06_01_dose6.html) - organização, documentação e reutilização
+
+**Referências externas gratuitas e oficiais:**
+
+- [Documentação do renv](https://rstudio.github.io/renv)
+- [Documentação do targets](https://docs.ropensci.org/targets)
+
+## Trilha 6 - Modelagem e Análise Avançada
+
+**Materiais do Café com R:**
+
+1.  [Tidymodels para regressão](https://jenniferlopes.github.io/meu_site/apresentações/posts/tidymodels.html) - machine learning com sintaxe tidy
+2.  [Documentação: Tidymodels para regressão](https://jenniferlopes.github.io/meu_site/apresentações/posts/tidymodels_documentacao.html) - material de referência complementar
+3.  [Do SQL para o R com dbplyr](https://jenniferlopes.github.io/meu_site/apresentações/posts/sql.html) - consultas SQL dentro do R
+4.  [SQL x R: comparativo de comandos](https://jenniferlopes.github.io/meu_site/apresentações/posts/sql_comandos.html) - equivalências entre SQL e dplyr
+5.  [Consumo de APIs RESTful no R](https://jenniferlopes.github.io/meu_site/apresentações/posts/api_R.html) - httr2 e autenticação
+6.  [Integração R e Python com Reticulate](https://jenniferlopes.github.io/meu_site/apresentações/posts/apresentacao_r_python.html) - combinando os dois mundos
+7.  [Pacotes R para Experimentação Agrícola](https://jenniferlopes.github.io/meu_site/apresentações/posts/aula19_pacotes_experimentacao_agricola.html) - análise de experimentos com R
+
+**Referências externas gratuitas e oficiais:**
+
+- [Tidy Modeling with R](https://www.tmwr.org)
+- [Documentação oficial do tidymodels](https://www.tidymodels.org)
+
+> **Jennifer Lopes \| Café com R**
